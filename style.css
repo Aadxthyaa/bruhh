@@ -9,13 +9,13 @@
   nav {
     height: 100px;
     background: #000000;
-    display: grid;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0rem calc((100vw - 1300px) / 2);
   }
   
- .logo {
+  .logo {
     color: #fdcc04;
     font-size: 1.5rem;
     font-weight: bold;
@@ -38,7 +38,7 @@
   }
   
   .hero-container {
-    display: grid;
+    display: flex;
     grid-template-columns: 1fr 1fr;
     height: 95vh;
     padding: 3rem calc((100vw - 1300px) / 2);
